@@ -1,3 +1,34 @@
+Readme
+======
+This application was made with `create-react-app` as a starting template.
+
+**NOTICE:** Pairing a booking with a listing is held in application state and will be reset on
+page refresh or application restart.
+
+
+Technologies Used
+-----------------
+- [create-react-app](https://github.com/facebook/create-react-app)
+- [yarn](https://classic.yarnpkg.com/en/)
+- [sass](https://sass-lang.com/)
+
+
+Running the application
+-----------------------
+Install dependencies
+
+`npm install` or `yarn`
+
+
+Start the application
+
+`npm run start` or `yarn start`
+
+Open browser and navigate to:
+
+`localhost:3000`
+
+
 Avail Frontend Take Home
 ========================
 
