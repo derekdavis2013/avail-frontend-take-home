@@ -1,0 +1,37 @@
+.listing {
+    display: grid;
+    grid-template:
+    "image vehicle ." 60px
+    "image dates button" 60px
+    / 30% 30% 30%;
+    padding-bottom: 25px;
+
+    .image {
+        grid-area: image;
+        justify-self: center;
+        max-height: 80px;
+    }
+
+    .vehicle {
+        grid-area: vehicle;
+        justify-self: start;
+        text-align: left;
+    }
+
+    .dates {
+        grid-area: dates;
+        justify-self: start;
+        text-align: left;
+    }
+
+    .pair-button {
+        grid-area: button;
+        justify-self: stretch;
+        align-self: center;
+
+        background-color: #D0CEE2;
+        border-radius: 5px;
+        border: solid 2px #aaaaaa;
+        cursor: pointer;
+    }
+}

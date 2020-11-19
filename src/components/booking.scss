@@ -1,0 +1,60 @@
+.booking {
+    display: grid;
+    grid-template: 
+        "image customer status" 40px
+        "image reservation ." 40px
+        "category dates dates" 40px
+        / 30% 30% 10%;
+    justify-items: center;
+    padding-bottom: 25px;
+    cursor: pointer;
+
+    .image {
+        grid-area: image;
+        justify-self: center;
+        max-height: 80px;
+    }
+
+    .customer {
+        grid-area: customer;
+        justify-self: start;
+    }
+
+    .status {
+        grid-area: status;
+        justify-self: end;
+        text-transform: capitalize;
+        text-align: right;
+    }
+
+    .reservation {
+        grid-area: reservation;
+        justify-self: start;
+    }
+
+    .category {
+        grid-area: category;
+        justify-self: center;
+        align-self: end;
+        text-align: center;
+    }
+
+    .dates {
+        grid-area: dates;
+        justify-self: start;
+        align-self: end;
+    }
+
+    .booking-header {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    &.selected {
+        background-color: #D0CEE2;
+    }
+
+    &:hover {
+        background-color: #D0CEE2;
+    }
+}
